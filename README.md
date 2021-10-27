@@ -1,1 +1,0 @@
-# MPPL-Kelompok-6
