@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins';
+} 
+
+/* LOGIN */
+.login {
+    min-height: 100vh;
+  }
+
+.bg-kiri {
+    background-color: #2277BF;
+    border-radius: 0 20px 20px 0;
+}
+ 
+.bg-kiri h1{
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+
+.login-heading{
+    font-size: 48px;
+    font-weight: bold;
+    color: #2277BF
+}
+
+.login-heading {
+    font-weight: 300;
+}
+  
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+}
+
+.formlogin input{
+    height: 60px;
+    border: 2px solid #2277BF;
+}
+
+.buttonlogin{
+    background-color:#2277BF; 
+    color:white; 
+    font-weight:bold;
+    height: 60px;
+}
+
+.buttonlogin:hover{
+    color: white;
+    background-color:#1760a0; 
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 15px 5% 15px 5%;
+    background-color: #2277BF !important;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* HOME */
+
+.wlcm h1{
+    font-size: 72px;
+    color: #2277BF;
+    font-weight: bold;
+}
+
+.form-outline input{
+    border-radius:5px 0 0 5px; 
+    height:60px;
+    border: 2px solid #2277BF
+}
+
+.form-outline input:focus {
+    box-shadow: none;
+    border: 2px solid #2277BF
+}
+
+.input-group button{
+    border-radius:0 5px 5px 0; 
+    padding: 0 25px 0 25px; 
+    background: #2277BF;
+    border:none;
+}
+
+.input-group button:focus{
+    box-shadow: none;
+}
+
+.input-group button:hover{
+    background-color: #1760a0 !important;
+}
