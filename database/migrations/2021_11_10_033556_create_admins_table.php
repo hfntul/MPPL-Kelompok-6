@@ -18,6 +18,7 @@ class CreateAdminsTable extends Migration
             $table->string('email');
             $table->string('password');
             $table->string('ormawa');
+            $table->timestamps();
         });
     }
 

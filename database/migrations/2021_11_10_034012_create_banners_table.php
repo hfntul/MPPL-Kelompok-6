@@ -22,6 +22,8 @@ class CreateBannersTable extends Migration
 
             $table->foreign('adminId')->references('id')->on('admins')
             ->onDelete('cascade')->onUpdate('cascade');
+
+            $table->timestamps();
         });
     }
 
