@@ -36,4 +36,12 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function proposals(){
+        return $this->hasMany( related: \App\Proposal::class, foreignKey: 'users_id', localKey: 'id');
+    }
+
+    public function banners(){
+        return $this->hasMany( related: \App\Banner::class, foreignKey: 'users_id', localKey: 'id');
+    }
 }
