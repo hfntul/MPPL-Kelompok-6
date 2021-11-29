@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/acara', function () {
+    return view('acara');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/detail-acara', function () {
+    return view('detail-acara');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
