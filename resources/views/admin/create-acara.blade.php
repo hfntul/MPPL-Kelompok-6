@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Koridor
+    Buat Acara
 @endsection
 
 @section('admin-content')
@@ -18,23 +18,23 @@
             <div class="card-body">
                 <form role="form" class="text-start">
                   <div class="input-group input-group-outline my-3" style="display:block">
-                    <label>Judul</label>
+                    <label><strong>Judul</strong></label>
                     <input type="text" class="form-control" style="width:100%" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
-                    <label>Tanggal Pelaksanaan</label>
+                    <label><strong>Tanggal Pelaksanaan</strong></label>
                     <input type="text" class="form-control" style="width:100%" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
-                    <label for="customFile">Proposal</label>
-                    <input type="file" class="form-control" id="customFile" style="width:100%"/>
+                    <label for="customFile"><strong>Proposal</strong></label>
+                    <input type="file" class="form-control" id="customFile" style="width:100%" />
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
-                    <label for="customFile">LPJ</label>
+                    <label for="customFile"><strong>LPJ</strong></label>
                     <input type="file" class="form-control" id="customFile" style="width:100%"/>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block;">
-                    <label for="customFile">Poster</label>
+                    <label for="customFile"><strong>Poster</strong></label>
                     <input type="file" class="form-control tes" id="customFile" style="width:100%;"/>
                   </div>
                 </form>

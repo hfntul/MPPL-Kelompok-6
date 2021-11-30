@@ -2,7 +2,7 @@
 
 
 @section('title')
-    Koridor
+    Banner
 @endsection
 
 @section('admin-content')

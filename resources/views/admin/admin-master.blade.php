@@ -5,7 +5,7 @@
     <title>@yield('title')</title><meta charset = "UTF-8">
     <title> {{config('app.name')}}</title>
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <!-- Nucleo Icons -->
     <link href="{{asset('css/nucleo-icons.css')}}" rel="stylesheet" />
     <link href="{{asset('css/nucleo-svg.css')}}" rel="stylesheet" />

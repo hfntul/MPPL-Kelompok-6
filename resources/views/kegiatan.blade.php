@@ -7,7 +7,7 @@
                 <h3>Simposium Nasional</h3>
                 <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p>
                 <br>
-                <a href="{{url('/detail-acara')}}">Read More</a>
+                <a href="{{url('/acara/detail')}}">Read More</a>
             </div>
         </div>
         <div class="column">

@@ -15,36 +15,41 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/acara', function () {
-    return view('acara');
+// ACARA
+Route::prefix('acara')->group(function(){
+    Route::get('/', function () {
+        return view('acara');
+    });
+    Route::get('/detail', function () {
+        return view('detail-acara');
+    });
 });
 
 Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/detail-acara', function () {
-    return view('detail-acara');
-});
-
 // STAFF
 Route::prefix('admin')->group(function(){
-	Route::get('/daftar-acara', function () {
-        return view('/admin/daftar-acara');
+    Route::get('/', function () {
+        return view('/admin/home-admin');
     });
-    
-    Route::get('/create-acara', function () {
-        return view('/admin/create-acara');
+    Route::prefix('acara')->group(function(){
+        Route::get('/', function () {
+            return view('/admin/daftar-acara');
+        });
+        Route::get('/create', function () {
+            return view('/admin/create-acara');
+        });
+        Route::get('/edit', function () {
+            return view('/admin/edit-acara');
+        });
     });
-
-    Route::get('/edit-acara', function () {
-        return view('/admin/edit-acara');
+    Route::prefix('banner')->group(function(){
+        Route::get('/edit', function () {
+            return view('/admin/edit-banner');
+        });
     });
-
-    Route::get('/edit-banner', function () {
-        return view('/admin/edit-banner');
-    });
-
 });
 
 Route::get('/create-acara', function () {

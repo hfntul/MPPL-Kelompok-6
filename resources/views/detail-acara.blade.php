@@ -11,7 +11,7 @@
         <h1 class="keg" style="margin-left:0">Simposium Nasional</h1>
         <table>
             <tr>
-                <th rowspan="2"><img src="./images/poster.png" style="max-width: 380px; max-height: 460px; margin-top:1%" alt="Card image cap"></th>
+                <th rowspan="2"><img src="/images/poster.png" style="max-width: 380px; max-height: 460px; margin-top:1%" alt="Card image cap"></th>
                 <td><label>Tanggal Pelaksanaan: 10 Oktober 2012</label></td>
             </tr>
             <tr>

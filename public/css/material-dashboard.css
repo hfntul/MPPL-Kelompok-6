@@ -49,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 123, 128, 154;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+  --bs-font-sans-serif: 'Poppins',"Roboto", Helvetica, Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -12995,7 +12995,7 @@ textarea.form-control-lg {
   .card .card-header {
     padding: 1.5rem; }
   .card .card-body {
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-family: 'Poppins',"Roboto", Helvetica, Arial, sans-serif;
     padding: 1.5rem; }
   .card.card-plain {
     background-color: transparent;
@@ -13960,7 +13960,7 @@ label,
   max-width: 2rem; }
 
 .bg-gradient-primary {
-  background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%); }
+  background-image: linear-gradient(195deg, #2277BF 0%, #338DDA 100%); }
 
 .bg-gradient-secondary {
   background-image: linear-gradient(195deg, #747b8a 0%, #495361 100%); }
@@ -16090,7 +16090,7 @@ p, .p {
 
 h1, .h1, .h1, h2, .h2, .h2, h3, .h3, .h3 {
   font-weight: 600;
-  font-family: "Roboto Slab", sans-serif; }
+  font-family: 'Poppins',"Roboto Slab", sans-serif; }
 
 h4, .h4, .h4, h5, .h5, .h5, h6, .h6, .h6 {
   font-weight: 600; }
@@ -16134,7 +16134,7 @@ p {
   font-weight: 300; }
 
 .text-sans-serif {
-  font-family: "Roboto", Helvetica, Arial, sans-serif !important; }
+  font-family: 'Poppins',"Roboto", Helvetica, Arial, sans-serif !important; }
 
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
@@ -17598,5 +17598,6 @@ pre[class*="language-"] {
   display: inline-block;
   font-size: 20px;
 }
+
 /*# sourceMappingURL=material-dashboard.css.map */
 

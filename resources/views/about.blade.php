@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Koridor
+    Tentang
 @endsection
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('title')
-    Koridor
+    Acara
 @endsection
 
 @section('content')

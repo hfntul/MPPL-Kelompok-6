@@ -6,10 +6,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav ">
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/')}}">Beranda<span class="sr-only">(current)</span></a>
+                <a class="nav-link" style="{{ (request()->is('/')) ? 'font-weight:bold' : '' }}" href="{{url('/')}}">Beranda</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{url('')}}">Acara</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{url('')}}" style="{{ (request()->is('acara*')) ? '!important; font-weight:bold' : '' }}">Acara</a>
                 <span class="caret"></span></a>
 
                 <div class="dropdown-menu">
@@ -28,7 +28,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{url('/about')}}">Tentang</a>
+                <a class="nav-link" style="{{ (request()->is('about')) ? 'font-weight:bold' : '' }}" href="{{url('/about')}}">Tentang</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{url('login')}}">Login</a>
