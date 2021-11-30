@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Banners;
 use Illuminate\Http\Request;
 
 class bannersAPIController extends Controller
@@ -13,7 +14,7 @@ class bannersAPIController extends Controller
      */
     public function index()
     {
-        $banners=Banners::all();
+        $banners=Banners::orderBy('id', 'asc')->get();
         return $banners;
     }
 
@@ -35,7 +36,11 @@ class bannersAPIController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input=$request->all();
+
+        $banner=Banners::create($input);
+
+        return $banner;
     }
 
     /**
@@ -46,7 +51,9 @@ class bannersAPIController extends Controller
      */
     public function show($id)
     {
-        //
+        $banner=Banners::find($id);
+
+        return $banner;
     }
 
     /**
@@ -69,7 +76,17 @@ class bannersAPIController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $input=$request->all();
+        
+        $banner=Banners::find($id);
+
+        if(empty($banner)){
+            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+        }
+
+        $banner->update($input);
+
+        return response()->json($banner);
     }
 
     /**
@@ -80,6 +97,14 @@ class bannersAPIController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $banner=Banners::find($id);
+
+        if(empty($banner)){
+            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+        }
+
+        $banner->delete();
+
+        return response()->json(['message'=>'data telah dihapus']);
     }
 }
