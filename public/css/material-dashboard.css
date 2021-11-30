@@ -17563,7 +17563,7 @@ pre[class*="language-"] {
   color: white;
 }
 
-.cancel{
+.simpan{
   background:#2277BF;
   color:white;
   width:100px;
@@ -17572,11 +17572,11 @@ pre[class*="language-"] {
   margin-left:20px
 }
 
-.cancel:hover{
+.simpan:hover{
   color:white;
   background:#1B6DB4;
 }
-.simpan{
+.batal{
   background:#FF5C00;
   color:white;
   width:100px;
@@ -17584,7 +17584,7 @@ pre[class*="language-"] {
   border-radius:2px; 
 }
 
-.simpan:hover{
+.batal:hover{
   color:white;
   background:#ED5601;
 }

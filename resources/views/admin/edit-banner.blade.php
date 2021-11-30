@@ -25,8 +25,8 @@
               </div>
           </div>
           <div class="text-center">
-            <button type="button" class="btn my-4 mb-2 cancel">Simpan</button>
-            <button type="button" class="btn my-4 mb-2 simpan">Batal</button>
+            <button type="button" class="btn my-4 mb-2 simpan">Simpan</button>
+            <button type="button" class="btn my-4 mb-2 batal">Batal</button>
           </div>
         </div>
       </div>
