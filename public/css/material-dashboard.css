@@ -17588,5 +17588,15 @@ pre[class*="language-"] {
   color:white;
   background:#ED5601;
 }
+
+.side{
+  background-color: transparent;
+  border: none;
+  color: #2277BF;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
 /*# sourceMappingURL=material-dashboard.css.map */
 

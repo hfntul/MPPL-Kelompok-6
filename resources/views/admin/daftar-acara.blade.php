@@ -11,8 +11,12 @@
         <div class="col-12">
           <div class="card my-4">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-              <div class=" border-radius-lg pt-4 pb-3" style="background-color:#2277BF">
-                <h6 class="text-white text-capitalize ps-3">Daftar Acara</h6>
+              <div class=" border-radius-lg pt-4 pb-3" style="background-color:#2277BF; display:inline-between">
+                <h6 class="text-white text-capitalize ps-3" style="float:left;">Daftar Acara</h6>
+                <a href="{{url('/admin/create-acara')}}"><h6 class="text-white text-capitalize ps-3" style="float:right;margin-right:20px">
+                  <i class="fas fa-plus-circle" style="margin-right:10px"></i>Tambah Acara</h6>
+                </a>
+                <div style="margin-top:34px"></div>               
               </div>
             </div>
             <div class="card-body px-0 pb-2">
