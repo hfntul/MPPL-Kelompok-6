@@ -2,7 +2,6 @@
 
 namespace App;
 
-use App\Banners;
 use Illuminate\Database\Eloquent\Model;
 // Schema::create('banners', function (Blueprint $table) {
 //     $table->integer('id');
@@ -16,6 +15,7 @@ use Illuminate\Database\Eloquent\Model;
 class Banners extends Model
 {
     //
+    public $timestamps = false;
     protected $table='banners';
     
     protected $fillable=[

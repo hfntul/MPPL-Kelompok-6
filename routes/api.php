@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 Route::apiResource('proposal', 'proposalAPIController');
+Route::apiResource('banner', 'bannersAPIController');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
