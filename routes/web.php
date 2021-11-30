@@ -27,6 +27,30 @@ Route::get('/detail-acara', function () {
     return view('detail-acara');
 });
 
+// STAFF
+Route::prefix('admin')->group(function(){
+	Route::get('/daftar-acara', function () {
+        return view('/admin/daftar-acara');
+    });
+    
+    Route::get('/create-acara', function () {
+        return view('/admin/create-acara');
+    });
+
+    Route::get('/edit-acara', function () {
+        return view('/admin/edit-acara');
+    });
+
+    Route::get('/edit-banner', function () {
+        return view('/admin/edit-banner');
+    });
+
+});
+
+Route::get('/create-acara', function () {
+    return view('/admin/create-acara');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
