@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Model;
 class Banners extends Model
 {
     //
-    public $timestamps = false;
+    // public $timestamps = false;
     protected $table='banners';
     
     protected $fillable=[

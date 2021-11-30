@@ -14,12 +14,13 @@ class CreateProposalTable extends Migration
     public function up()
     {
         Schema::create('proposal', function (Blueprint $table) {
-            $table->integer('id');
+            $table->increment('id');
             $table->integer('adminId')->unsigned();
             $table->string('kabinet');
-            $table->date('uploadTime');
+            // $table->date('uploadTime');
             $table->string('eventName');
             $table->string('eventTimeHeld');
+            $table->timestamps();
 
             $table->foreign('adminId')->references('id')->on('admins')
             ->onDelete('cascade')->onUpdate('cascade');

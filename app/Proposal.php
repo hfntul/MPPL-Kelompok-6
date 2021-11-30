@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\Model;
 class Proposal extends Model
 {
     //
-    public $timestamps = false;
+    // public $timestamps = false;
     
     protected $table='proposal';
 
