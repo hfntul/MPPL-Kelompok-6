@@ -1,4 +1,4 @@
-<p align="center">![Screenshot (1118)](https://user-images.githubusercontent.com/48743817/144277629-0e8fd702-3126-475f-b28c-52c5c1d8394d.png)</p>
+![Screenshot (1118)](https://user-images.githubusercontent.com/48743817/144277629-0e8fd702-3126-475f-b28c-52c5c1d8394d.png)
 
 
 ## Kelompok 6
@@ -27,17 +27,23 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 
 ## Kebutuhan Sistem
 
-* Software yang dipakai untuk pengembangan
+* Software yang digunakan untuk pengembangan
+  
   Figma, Github, XAMPP, VS Code, Sublime Text, Chrome, Trello, Diagrams.net
-* Tech Stack yang dipakai untuk pengembangan
+  
+* Tech Stack yang digunakan untuk pengembangan
+  
   Laravel, PHP, MySQL, Bootstrap
-* Hardware (salah satunya) yang dipakai untuk pengembangan
-  Processor : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
-  Memory : 8,00 GB
-  VGA : Nvidia GTX 1050Ti GeForce
+  
+* Hardware yang digunakan untuk pengembangan
+
+  * Processor : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+  * Memory : 8,00 GB
+  * VGA : Nvidia GTX 1050Ti GeForce
 
 ## Fitur yang dikembangkan
 |No|Fitur|Fungsi/Kegunaan|
+|--|-----|---------------|
 |1|Login|Untuk admin, agar dapat mengunggah proposal sponsor serta mengupdate informasi di banner|
 |2|Mengubah head banner|Untuk mengupdate informasi yang sedang berlangsung|
 |3|Upload proposal sponsor|Untuk menyebarkan informasi mengenai proposal sponsor|
@@ -46,19 +52,25 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 
 ## Metodologi
 
-<img src="https://drive.google.com/file/d/1VDli1iuqugfEW6KSsZFFfuoZQSq9bB3P/view?usp=sharing">
+Metode yang digunakan adalah waterfall
+
+![Screenshot (1119)](https://user-images.githubusercontent.com/48743817/144280174-2e7ce7e2-3acd-4591-a910-5b603d447c2f.png)
+
 
 ## Use Case
 
-<img src="https://drive.google.com/file/d/1lExV4SdyQJmUyn6hoQ7f8OLaYvfcAOcw/view?usp=sharing">
+
 
 ## Class Diagram
 
-<img src="https://drive.google.com/file/d/19k6fv3GNPOLCa08B1pj5fIGGLIt6GEsv/view?usp=sharing">
+![Screenshot (1120)](https://user-images.githubusercontent.com/48743817/144280563-ff1022c7-d066-4685-b370-ccc964e6597e.png)
 
 ## Activity Diagram
 
-<img src="https://drive.google.com/file/d/1eghHjeuRECl1kcNXCeRnrBo8qC36gqqE/view?usp=sharing">
+![Screenshot (1121)](https://user-images.githubusercontent.com/48743817/144280466-508c6f49-7a3f-471c-a958-35855d0cb24b.png)
+![Screenshot (1125)](https://user-images.githubusercontent.com/48743817/144280494-22dc2e9d-e8c9-4d92-8ce5-1604ff5a1b91.png)
+![Screenshot (1122)](https://user-images.githubusercontent.com/48743817/144280516-dbf84463-92a2-4e36-8a36-e410af9ec5ac.png)
+
 
 ## Design Interface
 
