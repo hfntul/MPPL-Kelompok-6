@@ -22,15 +22,15 @@
                                 <h3 class="login-heading mb-5 text-center">Login Koridor</h3>
 
                                 <!-- Login Form -->
-                                <form method="post" action="{{action('AdminsControllers@login')}}" class="formlogin">
+                                <form method="POST" action="{{action('AdminsControllers@login')}}" class="formlogin">
                                     {{ csrf_field() }}
                                     <div class="form-floating mb-3">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
                                     </div>
                                     <div class="form-floating mb-5">
                                         <label for="password">Password</label>
-                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
                                     </div>
                                     <div class="d-grid">
                                         <button class="btn btn-lg btn-login btn-block text-uppercase fw-bold mb-2 buttonlogin" type="submit">login</button>

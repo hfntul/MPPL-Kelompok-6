@@ -14,13 +14,13 @@ class CreateBannersTable extends Migration
     public function up()
     {
         Schema::create('banners', function (Blueprint $table) {
-            $table->integer('id');
-            $table->integer('adminId')->unsigned();
+            $table->increments('id');
+            $table->integer('admin_id')->unsigned();
             $table->string('nama');
-            $table->date('uploadTime');
+            // $table->date('uploadTime');
             $table->string('link');
 
-            $table->foreign('adminId')->references('id')->on('admins')
+            $table->foreign('admin_id')->references('id')->on('admins')
             ->onDelete('cascade')->onUpdate('cascade');
 
             $table->timestamps();

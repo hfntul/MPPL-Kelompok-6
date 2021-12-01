@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home',);
 });
 
 // ACARA
@@ -36,7 +36,8 @@ Route::prefix('admin')->group(function(){
     });
     Route::prefix('acara')->group(function(){
         Route::get('/', function () {
-            return view('/admin/daftar-acara');
+            $acara = DB::table('proposal')->get();
+            return view('/admin/daftar-acara', ['proposalController@view_acara']);
         });
         Route::get('/create', function () {
             return view('/admin/create-acara');
@@ -66,3 +67,5 @@ Route::get('/register', function (){
 
 Route::post('/adminRegist', "AdminsControllers@store");
 Route::post('/adminLogin', "AdminsControllers@login");
+Route::post('/createProposal', "AdminsControllers@createProposal");
+

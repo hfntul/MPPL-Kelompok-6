@@ -81,7 +81,7 @@ class bannersAPIController extends Controller
         $banner=Banners::find($id);
 
         if(empty($banner)){
-            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+            return response()->json(['message'=>'data tidak ditemukan'], 404);
         }
 
         $banner->update($input);
@@ -100,7 +100,7 @@ class bannersAPIController extends Controller
         $banner=Banners::find($id);
 
         if(empty($banner)){
-            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+            return response()->json(['message'=>'data tidak ditemukan'], 404);
         }
 
         $banner->delete();

@@ -2,41 +2,34 @@
 
 namespace App;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Auth\Authenticatable as AuthenticableTrait;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
 
-class Admin extends Authenticatable
+
+class Admin extends Model implements Authenticatable
 {
     use Notifiable;
+    use AuthenticableTrait;
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+    protected $table = 'admins';
     protected $fillable = [
-        'email', 'password', 'ormawa',
+        'email',
+        'password',
+        'ormawa',
     ];
-
-    /**
-     * The attributes that should be hidden for arrays.
-     *
-     * @var array
-     */
     protected $hidden = [
-        'password', 'remember_token',
+        'password',
+        'remember_token',
     ];
 
-    /**
-     * The attributes that should be cast to native types.
-     *
-     * @var array
-     */
-    // protected $casts = [
-    //     'email_verified_at' => 'datetime',
-    // ];
-    public function username(){
-        return 'email';
+    public function getAuthPassword() {
+        return $this->password;
+    }
+
+    public function proposal()
+    {
+        return $this->hasMany(\App\Proposal::class);
     }
 }

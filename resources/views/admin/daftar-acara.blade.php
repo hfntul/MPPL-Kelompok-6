@@ -33,16 +33,17 @@
                     </tr>
                   </thead>
                   <tbody>
+                    @foreach(Auth::user()->proposal as $key => $a)
                     <tr>
                       <td>
                         <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
-                            Seminar Nasional
+                            {{$a->eventName}}
                         </h6>
                       </td>
 
                       <td>
                         <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
-                            20 Oktober 2021
+                            {{$a->eventTimeHeld}}
                         </h6>
                       </td>
 
@@ -71,7 +72,7 @@
                         </h6>
                       </td>
                     </tr>
-                    <tr>
+                    <!-- <tr>
                       <td>
                         <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
                             IT Today 
@@ -108,7 +109,8 @@
                             <a class="delete" href="#"><i class="fas fa-trash-alt"></i></a>                            
                         </h6>
                       </td>
-                    </tr>
+                    </tr> -->
+                    @endforeach
                   </tbody>
                 </table>
               </div>
