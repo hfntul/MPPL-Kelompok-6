@@ -11,21 +11,25 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{url('')}}" style="{{ (request()->is('acara*')) ? '!important; font-weight:bold' : '' }}">Acara</a>
                 <span class="caret"></span></a>
-
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="{{url('/acara')}}">BEM KM IPB</a>
-                    <a class="dropdown-item" href="#">BEM FAPERTA</a>
-                    <a class="dropdown-item" href="#">BEM FKH</a>
-                    <a class="dropdown-item" href="#">BEM FPIK</a>
-                    <a class="dropdown-item" href="#">BEM FAPET</a>
-                    <a class="dropdown-item" href="#">BEM FAHUTAN</a>
-                    <a class="dropdown-item" href="#">BEM FATETA</a>
-                    <a class="dropdown-item" href="#">BEM FMIPA</a>
-                    <a class="dropdown-item" href="#">BEM FEM</a>
-                    <a class="dropdown-item" href="#">BEM FEMA</a>
-                    <a class="dropdown-item" href="#">BEM SV</a>
-                    <a class="dropdown-item" href="#">BEM SB</a>
-                </div>
+                <form>
+                {{ csrf_field() }}
+                    <div class="dropdown-menu">
+                        <div>
+                        <a class="dropdown-item" href="acara/toAcara/KM">BEM KM IPB</a>
+                        </div>
+                        <a class="dropdown-item" href="acara/toAcara/FAPERTA">BEM FAPERTA</a>
+                        <a class="dropdown-item" href="acara/toAcara/FKH">BEM FKH</a>
+                        <a class="dropdown-item" href="acara/toAcara/FPIK">BEM FPIK</a>
+                        <a class="dropdown-item" href="acara/toAcara/FAPET">BEM FAPET</a>
+                        <a class="dropdown-item" href="acara/toAcara/FAHUTAN">BEM FAHUTAN</a>
+                        <a class="dropdown-item" href="acara/toAcara/FATETA">BEM FATETA</a>
+                        <a class="dropdown-item" href="acara/toAcara/FMIPA">BEM FMIPA</a>
+                        <a class="dropdown-item" href="acara/toAcara/FEM">BEM FEM</a>
+                        <a class="dropdown-item" href="acara/toAcara/FEMA">BEM FEMA</a>
+                        <a class="dropdown-item" href="acara/toAcara/SV">BEM SV</a>
+                        <a class="dropdown-item" href="acara/toAcara/SB">BEM SB</a>
+                    </div>
+                </form>
             </li>
             <li class="nav-item">
                 <a class="nav-link" style="{{ (request()->is('about')) ? 'font-weight:bold' : '' }}" href="{{url('/about')}}">Tentang</a>

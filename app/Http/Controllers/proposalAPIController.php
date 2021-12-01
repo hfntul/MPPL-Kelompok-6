@@ -116,4 +116,19 @@ class proposalAPIController extends Controller
 
         return redirect('/admin/acara/')->with('sukses', 'Acara Berhasil di Update');
     }
+
+    public function toAcara($ormawa)
+    {
+        $adminId = Admin::where('ormawa', $ormawa)->first();
+        $proposalnya = Proposal::where('admin_id', $adminId->id)->get();
+
+        return view('/acara', compact('proposalnya'));
+    }
+    
+    public function toDetailAcara($id)
+    {
+        $detailProp = Proposal::find($id);
+
+        return view('detail-acara', compact('detailProp'));
+    }
 }

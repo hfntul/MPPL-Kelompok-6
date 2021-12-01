@@ -23,6 +23,8 @@ Route::prefix('acara')->group(function(){
     Route::get('/detail', function () {
         return view('detail-acara');
     });
+    Route::get('/toAcara/{ormawa}', 'proposalAPIController@toAcara');
+    Route::get('/toDetail/{id}', 'proposalAPIController@toDetailAcara');    
 });
 
 Route::get('/about', function () {
