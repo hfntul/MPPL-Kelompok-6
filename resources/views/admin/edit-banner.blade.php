@@ -16,18 +16,22 @@
               </div>
             </div>
             <div class="card-body">
-                <form role="form" class="text-start">
+            @foreach(Auth::user()->banners as $key => $a)
+                <form action="/admin/banner/edit/{{$a->id}}/update" method="POST" class="text-start">
+                {{csrf_field()}}
                   <div class="input-group input-group-outline my-3" style="display:block">
                     <label>Deskripsi</label>
-                    <input type="text" class="form-control" style="width:100%" required>
+                    <input type="text" id="link" name="link" class="form-control" style="width:100%" value="{{$a->link}}">
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn my-4 mb-2 simpan">Simpan</button>
+                    <button type="button" class="btn my-4 mb-2 batal">Batal</button>
                   </div>
                 </form>
+                @endforeach
               </div>
           </div>
-          <div class="text-center">
-            <button type="button" class="btn my-4 mb-2 simpan">Simpan</button>
-            <button type="button" class="btn my-4 mb-2 batal">Batal</button>
-          </div>
+          
         </div>
       </div>
 </div>

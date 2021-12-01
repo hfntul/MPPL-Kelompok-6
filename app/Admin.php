@@ -32,4 +32,9 @@ class Admin extends Model implements Authenticatable
     {
         return $this->hasMany(\App\Proposal::class);
     }
+
+    public function banners()
+    {
+        return $this->hasMany(\App\Banners::class);
+    }
 }

@@ -18,14 +18,14 @@
                             <h1>Welcome to Koridor</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <br>
-                            <div class="input-group">
+                            <!-- <div class="input-group">
                                 <div class="form-outline">
                                     <input type="search" id="form1" class="form-control" placeholder="Search"/>
                                 </div>
                                 <button type="button" class="btn btn-primary">
                                     <i class="fa fa-search"></i>
                                 </button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

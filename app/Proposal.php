@@ -18,12 +18,12 @@ use Illuminate\Database\Eloquent\Model;
 class Proposal extends Model
 {
     //
-    // public $timestamps = false;
+    public $timestamps = true;
     
     protected $table='proposal';
 
     protected $fillable=[
-        'admin_id','eventName','eventTimeHeld','file',
+        'admin_id','eventName','eventTimeHeld','file','id','kabinet',
     ];
         
     public function admins(){

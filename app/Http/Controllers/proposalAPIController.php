@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;
 use App\Proposal;
 use Illuminate\Http\Request;
-
+use App\Admin;
 class proposalAPIController extends Controller
 {
     /**
@@ -36,6 +36,7 @@ class proposalAPIController extends Controller
      */
     public function store(Request $request)
     {
+        
         $input=$request->all();
 
         $proposal=Proposal::create($input);
@@ -74,6 +75,14 @@ class proposalAPIController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
+    
+    public function edit($id)
+    {
+    	$proposal = \App\Proposal::find($id);
+        return view('admin.edit-acara', ['proposal' => $proposal]);
+    }
+
     public function update(Request $request, $id)
     {
         $input=$request->all();
@@ -81,12 +90,12 @@ class proposalAPIController extends Controller
         $proposal=Proposal::find($id);
 
         if(empty($proposal)){
-            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+            return response()->json(['message'=>'data tidak ditemukan']);
         }
 
         $proposal->update($input);
 
-        return response()->json($proposal);
+        return redirect('/admin/acara/')->with('sukses', 'Acara Berhasil di Update');
     }
 
     /**
@@ -100,11 +109,11 @@ class proposalAPIController extends Controller
         $proposal=Proposal::find($id);
 
         if(empty($proposal)){
-            return response()->json(['message'=>'data tidak ditemukan'], status: 404);
+            return response()->json(['message'=>'data tidak ditemukan']);
         }
 
         $proposal->delete();
 
-        return response()->json(['message'=>'data telah dihapus']);
+        return redirect('/admin/acara/')->with('sukses', 'Acara Berhasil di Update');
     }
 }

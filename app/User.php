@@ -38,10 +38,10 @@ class User extends Authenticatable
     ];
 
     public function proposals(){
-        return $this->hasMany( related: \App\Proposal::class, foreignKey: 'users_id', localKey: 'id');
+        return $this->hasMany(\App\Proposal::class);
     }
 
     public function banners(){
-        return $this->hasMany( related: \App\Banner::class, foreignKey: 'users_id', localKey: 'id');
+        return $this->hasMany(\App\Banner::class);
     }
 }

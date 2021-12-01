@@ -27,6 +27,10 @@
                     <input type="text" id="tanggalPel" name="tanggalPel" class="form-control" style="width:100%" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
+                    <label><strong>Kabinet</strong></label>
+                    <input type="text" id="tanggalPel" name="kabinet" class="form-control" style="width:100%" required>
+                  </div>
+                  <div class="input-group input-group-outline mb-3" style="display:block">
                     <label for="customFile"><strong>Proposal</strong></label>
                     <input type="file" class="form-control" id="file" name="file" style="width:100%" />
                   </div>

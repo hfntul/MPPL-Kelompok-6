@@ -19,14 +19,14 @@ class Banners extends Model
     protected $table='banners';
     
     protected $fillable=[
-        'adminId', 'nama', 'uploadTime', 'link', 'users_id'
+        'admin_id', 'nama', 'uploadTime', 'link', 'users_id', 'id', 'dueDate'
     ];
 
     public function admins(){
-        return $this->belongsTo( related: \app\Admins::class, foreignKey: 'adminId', ownerKey: 'id');
+        return $this->belongsTo(\App\Admins::class);
     }
 
     public function user(){
-        return $this->belongsTo( related: \app\User::class, foreignKey: 'users_id', ownerKey: 'id');
+        return $this->belongsTo(App\User::class);
     }
 }

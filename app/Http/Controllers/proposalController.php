@@ -17,10 +17,10 @@ class proposalController extends Controller
         $acara = Proposal::all();
         return view('index', compact('acara'));
     }
-
+    
     public function view_acara()
     {
-        $admin = Admin::find(auth()->user()->adminId);
+        $admin = Admin::find(auth()->user()->admin_id);
         return view('acara', compact('admin'));
     }
 

@@ -15,12 +15,13 @@ class CreateProposalTable extends Migration
     {
         Schema::create('proposal', function (Blueprint $table) {
 
-            $table->increment('id');
-            $table->integer('adminId')->unsigned();
+            $table->increments('id');
+            $table->integer('admin_id')->unsigned();
             $table->string('kabinet');
             // $table->date('uploadTime');
             $table->string('eventName');
             $table->string('eventTimeHeld');
+            $table->string('file');
             $table->timestamps();
 
 
@@ -30,7 +31,6 @@ class CreateProposalTable extends Migration
             // $table->foreign('kabinet')->references('ormawa')->on('admins')
             // ->onDelete('cascade')->onUpdate('cascade');
 
-            $table->timestamps();
         });
     }
 

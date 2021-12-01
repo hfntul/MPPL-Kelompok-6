@@ -26,6 +26,7 @@
                     <tr style="color:#2D7DC2">
                       <th class="text-center font-weight-bolder">Judul</th>
                       <th class="text-center font-weight-bolder">Tanggal Pelaksanaan</th>
+                      <th class="text-center font-weight-bolder">Kabinet</th>
                       <th class="text-center font-weight-bolder">Proposal</th>
                       <th class="text-center font-weight-bolder">LPJ</th>
                       <th class="text-center font-weight-bolder">Poster</th>
@@ -44,6 +45,12 @@
                       <td>
                         <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
                             {{$a->eventTimeHeld}}
+                        </h6>
+                      </td>
+
+                      <td>
+                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
+                            {{$a->kabinet}}
                         </h6>
                       </td>
 
@@ -67,8 +74,8 @@
 
                       <td class="align-middle text-center">
                         <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <a class="edit" href="{{url('/admin/acara/edit')}}"><i class="fas fa-edit"></i></a>
-                            <a class="delete" href="#"><i class="fas fa-trash-alt"></i></a>                            
+                            <a class="edit" href="/admin/acara/edit/{{$a->id}}"><i class="fas fa-edit"></i></a>
+                            <a class="delete" href="/admin/acara/{{$a->id}}"><i class="fas fa-trash-alt"></i></a>                            
                         </h6>
                       </td>
                     </tr>

@@ -86,7 +86,7 @@ class bannersAPIController extends Controller
 
         $banner->update($input);
 
-        return response()->json($banner);
+        return redirect('/admin/banner/edit')->with('sukses', 'Banner Berhasil di Update');
     }
 
     /**

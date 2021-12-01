@@ -38,6 +38,12 @@ class AdminsControllers extends Controller
         }
      }
 
+     public function logout()
+     {
+      Auth::logout();
+      return redirect('/');
+     }
+
      public function createProposal(Request $request)
      {
         // $request->validate([
@@ -58,6 +64,7 @@ class AdminsControllers extends Controller
             "admin_id" => Auth::user()->id,
             "eventName" => $request->judul,
             "eventTimeHeld" => $request->tanggalPel,
+            "kabinet" => $request->kabinet,
             "file" => '1',
          ]);
 

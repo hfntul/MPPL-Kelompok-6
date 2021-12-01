@@ -16,14 +16,20 @@
               </div>
             </div>
             <div class="card-body">
-                <form role="form" class="text-start">
+                
+                <form action="/admin/acara/edit/{{$proposal->id}}/update" method="POST" class="text-start">
+                {{csrf_field()}}
                   <div class="input-group input-group-outline my-3" style="display:block">
                     <label><strong>Judul</strong></label>
-                    <input type="text" class="form-control" style="width:100%" required>
+                    <input type="text" id="eventName" name="eventName" class="form-control" style="width:100%" value="{{$proposal->eventName}}">
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
                     <label><strong>Tanggal Pelaksanaan</strong></label>
-                    <input type="text" class="form-control" style="width:100%" required>
+                    <input type="text" id="eventTimeHeld" name="eventTimeHeld" class="form-control" style="width:100%" value="{{$proposal->eventTimeHeld}}">
+                  </div>
+                  <div class="input-group input-group-outline mb-3" style="display:block">
+                    <label><strong>Kabinet</strong></label>
+                    <input type="text" id="kabinet" name="kabinet" class="form-control" style="width:100%" value="{{$proposal->kabinet}}">
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
                     <label for="customFile"><strong>Proposal</strong></label>
@@ -37,13 +43,14 @@
                     <label for="customFile"><strong>Poster</strong></label>
                     <input type="file" class="form-control tes" id="customFile" style="width:100%;"/>
                   </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn my-4 mb-2 simpan">Simpan</button>
+                    <button type="button" class="btn my-4 mb-2 batal">Batal</button>
+                  </div>
                 </form>
               </div>
           </div>
-          <div class="text-center">
-            <button type="button" class="btn my-4 mb-2 simpan">Simpan</button>
-            <button type="button" class="btn my-4 mb-2 batal">Batal</button>
-          </div>
+         
         </div>
       </div>
 </div>

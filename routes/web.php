@@ -42,16 +42,25 @@ Route::prefix('admin')->group(function(){
         Route::get('/create', function () {
             return view('/admin/create-acara');
         });
-        Route::get('/edit', function () {
-            return view('/admin/edit-acara');
-        });
+        Route::get('/edit/{id}', 'proposalAPIController@edit');
+	    Route::post('/edit/{id}/update', 'proposalAPIController@update');
+
+        Route::get('/{id}','proposalAPIController@destroy');
+        
     });
+
     Route::prefix('banner')->group(function(){
         Route::get('/edit', function () {
             return view('/admin/edit-banner');
         });
+        Route::post('/edit/{id}/update', 'bannersAPIController@update');
     });
+    
+
 });
+Route::apiResource('proposal', 'proposalAPIController');
+Route::apiResource('banner', 'bannersAPIController');
+
 
 Route::get('/create-acara', function () {
     return view('/admin/create-acara');
@@ -68,4 +77,5 @@ Route::get('/register', function (){
 Route::post('/adminRegist', "AdminsControllers@store");
 Route::post('/adminLogin', "AdminsControllers@login");
 Route::post('/createProposal', "AdminsControllers@createProposal");
+Route::get('/logout','AdminsControllers@logout');
 
