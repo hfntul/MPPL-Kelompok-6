@@ -52,7 +52,7 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 
 ## Metodologi
 
-Metode yang digunakan adalah waterfall
+Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini adalah karena lingkup proyek yang kecil, resiko proyek yang kecil, gambaran produk yang sudah cukup jelas, serta terbatasnya waktu yang diberikan. Metode ini memiliki 6 tahapan dalam pengembangannya. Setiap tahapannya harus diselesaikan sebelum ke tahap berikutnya. Enam tahapan tersebut adalah Requirements, Analysis, Desain, Coding, Testing, dan Operasi atau Impementasi. Namun pada perjalanannya, kami hanya dapat melakukan hingga pada tahap coding.
 
 ![Screenshot (1119)](https://user-images.githubusercontent.com/48743817/144280174-2e7ce7e2-3acd-4591-a910-5b603d447c2f.png)
 
