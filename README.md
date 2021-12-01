@@ -3,6 +3,7 @@
 ![Screenshot (1118)](https://user-images.githubusercontent.com/48743817/144277629-0e8fd702-3126-475f-b28c-52c5c1d8394d.png)
 
 ---
+---
 ## Kelompok 6
 |No|Nama|Role|
 |--|----|----|
@@ -12,21 +13,27 @@
 |4|Syukriyatul Hanifa|Front-end engineer|
 |5|Firda Agustin Kartika|Front-end engineer|
 
+---
+---
 ## Deskripsi Sistem
 
 Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa untuk saling menginformasikan kegiatan yang sedang atau akan berlangsung. Sistem ini terdiri dari dua aktor yaitu admin dan pengunjung/user. Admin adalah perwakilan dari pengurus ormawa.
 
+---
+---
 ## Deskripsi Kebutuhan User 
 
-| No | Pengguna     |                Task           |
-| ---| ------------ | ------------------------------|
-| 1  | Ormawa/Admin | Mengubah atau menghapus banner|
-|    |              | Mengunggah proposal sponsor   |
-|    |              | Menghapus proposal sponsor    |
-| 2  | Pengguna Umum| Melihat banner                |
-|    |              | Melihat proposal sponsor      |
-|    |              | Mengunduh proposal sponsor    |
+| No | Pengguna     |                Task            |
+| ---| ------------ | -------------------------------|
+| 1  | Ormawa/Admin | Mengubah atau menghapus banner |
+|    |              | Mengunggah proposal sponsor    |
+|    |              | Menghapus proposal sponsor     |
+| 2  | Pengguna Umum| Melihat banner                 |
+|    |              | Melihat proposal sponsor       |
+|    |              | Mengunduh proposal sponsor     |
 
+---
+---
 ## Kebutuhan Sistem
 
 * Software yang digunakan untuk pengembangan
@@ -43,6 +50,8 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
   * Memory : 8,00 GB
   * VGA : Nvidia GTX 1050Ti GeForce
 
+---
+---
 ## Fitur yang dikembangkan
 |No|Fitur|Fungsi/Kegunaan|
 |--|-----|---------------|
@@ -52,13 +61,17 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 |4|Menampilkan proposal sponsor|Untuk memberitahu mahasiswa mengenai proposal sponsor|
 |5|Menampilkan head banner|Untuk menampilkan informasi yang sedang berlangsung|
 
+---
+
+---
 ## Metodologi
 
 Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini adalah karena lingkup proyek yang kecil, resiko proyek yang kecil, gambaran produk yang sudah cukup jelas, serta terbatasnya waktu yang diberikan. Metode ini memiliki 6 tahapan dalam pengembangannya. Setiap tahapannya harus diselesaikan sebelum ke tahap berikutnya. Enam tahapan tersebut adalah Requirements, Analysis, Desain, Coding, Testing, dan Operasi atau Impementasi. Namun pada perjalanannya, kami hanya dapat melakukan hingga pada tahap coding.
 
 ![Screenshot (1119)](https://user-images.githubusercontent.com/48743817/144280174-2e7ce7e2-3acd-4591-a910-5b603d447c2f.png)
 
-
+---
+---
 ## Use Case
 
 
@@ -73,9 +86,29 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ![Screenshot (1125)](https://user-images.githubusercontent.com/48743817/144280494-22dc2e9d-e8c9-4d92-8ce5-1604ff5a1b91.png)
 ![Screenshot (1122)](https://user-images.githubusercontent.com/48743817/144280516-dbf84463-92a2-4e36-8a36-e410af9ec5ac.png)
 
+---
+---
+## Trello
 
-## Design Interface
+---
 
+---
+## Hasil Implementasi Perangkat Lunak
+
+### Landing Page
+
+### Login
+
+### Tambah Acara
+
+### Edit Acara
+
+### Delete Acara
+
+### Edit Banner
+
+
+---
 
 
 
