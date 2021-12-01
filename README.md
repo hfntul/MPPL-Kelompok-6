@@ -1,4 +1,4 @@
-<p align="center"><img src="https://drive.google.com/file/d/1leSqmiAd5Ar39kTMDJdUe-MKLi6J-3TS/view?usp=sharing" width="400"></p>
+<p align="center">![Screenshot (1118)](https://user-images.githubusercontent.com/48743817/144277629-0e8fd702-3126-475f-b28c-52c5c1d8394d.png)</p>
 
 
 ## Kelompok 6
