@@ -23,14 +23,18 @@ class Proposal extends Model
     protected $table='proposal';
 
     protected $fillable=[
-        'adminId', 'kabinet', 'uploadTime', 'eventName', 'eventTimeHeld'
+        'admin_id','eventName','eventTimeHeld','file',
     ];
         
     public function admins(){
-        return $this->belongsTo( related: \app\Admins::class, foreignKey: 'adminId', ownerKey: 'id');
+        return $this->belongsTo(\App\Admin::class);
     }
+    
+    // public function admins(){
+    //     return $this->belongsTo( related: \app\Admins::class, foreignKey: 'adminId', ownerKey: 'id');
+    // }
 
-    public function user(){
-        return $this->belongsTo( related: \app\User::class, foreignKey: 'users_id', ownerKey: 'id');
-    }
+    // public function user(){
+    //     return $this->belongsTo( related: \app\User::class, foreignKey: 'users_id', ownerKey: 'id');
+    // }
 }

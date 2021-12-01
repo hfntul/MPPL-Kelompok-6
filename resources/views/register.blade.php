@@ -19,21 +19,25 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-9 col-lg-8 mx-auto">
-                                <h3 class="login-heading mb-5 text-center">Login Koridor</h3>
+                                <h3 class="login-heading mb-5 text-center">Register Koridor</h3>
 
                                 <!-- Login Form -->
-                                <form method="POST" action="{{action('AdminsControllers@login')}}" class="formlogin">
+                                <form method="post" action="{{action('AdminsControllers@store')}}" class="formlogin">
                                     {{ csrf_field() }}
                                     <div class="form-floating mb-3">
                                         <label for="email">Email</label>
-                                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                                     </div>
                                     <div class="form-floating mb-5">
-                                        <label for="password">Password</label>
-                                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Password">
+                                        <label for="ormawa">Ormawa</label>
+                                        <input type="string" class="form-control" id="ormawa" name="ormawa" placeholder="Ormawa">
                                     </div>
                                     <div class="d-grid">
-                                        <button class="btn btn-lg btn-login btn-block text-uppercase fw-bold mb-2 buttonlogin" type="submit">login</button>
+                                        <button class="btn btn-lg btn-login btn-block text-uppercase fw-bold mb-2 buttonlogin" type="submit">Register</button>
                                     </div>
                                 </form>
                                 </div>

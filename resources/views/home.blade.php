@@ -8,9 +8,9 @@
 <div class="container-fluid ps-md-0">
     <div class="row g-0">
         <div class="d-none d-md-flex col-md-4 col-lg-6">
-            <img style="height:80%; margin:auto; padding-top:70px"src="./images/home.png">
+            <img class="images" src="./images/home.png">
         </div>
-        <div class="col-md-8 col-lg-6">
+        <div class="col-md-8 col-lg-6 coba">
             <div class="login d-flex align-items-center py-5">
                 <div class="container">
                     <div class="row">
@@ -23,7 +23,7 @@
                                     <input type="search" id="form1" class="form-control" placeholder="Search"/>
                                 </div>
                                 <button type="button" class="btn btn-primary">
-                                    <i class="fas fa-search"></i>
+                                    <i class="fa fa-search"></i>
                                 </button>
                             </div>
                         </div>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\proposal;
+use App\Proposal;
 use Illuminate\Http\Request;
 
 class proposalController extends Controller
@@ -14,7 +14,14 @@ class proposalController extends Controller
      */
     public function index()
     {
-        //
+        $acara = Proposal::all();
+        return view('index', compact('acara'));
+    }
+
+    public function view_acara()
+    {
+        $admin = Admin::find(auth()->user()->adminId);
+        return view('acara', compact('admin'));
     }
 
     /**
