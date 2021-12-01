@@ -14,7 +14,7 @@ class bannersAPIController extends Controller
      */
     public function index()
     {
-        $banners=Banners::orderBy('id', 'asc')->get();
+        $banners=Banners::all();
         return $banners;
     }
 
