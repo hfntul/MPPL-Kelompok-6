@@ -1,5 +1,14 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://www.figma.com/file/O7V5HmZiMpk2egAjcxJYIC/Koridor?node-id=197%3A4" width="400"></a></p>
+<p align="center"><img src="https://drive.google.com/file/d/1leSqmiAd5Ar39kTMDJdUe-MKLi6J-3TS/view?usp=sharing" width="400"></p>
 
+
+## Kelompok 6
+|No|Nama|Role|
+|--|----|----|
+|1|Raden Rafly Ramadhan Fadilah | Project Manager, Backend engineer|
+|2|Nur Laely Mutmainnah|System Analyst, UI/UX|
+|3|M Faishal Wicaksono R|Back-end engineer|
+|4|Syukriyatul Hanifa|Front-end engineer|
+|5|Firda Agustin Kartika|Front-end engineer|
 
 ## Deskripsi Sistem
 
@@ -7,58 +16,52 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 
 ## Deskripsi Kebutuhan User 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+| No | Pengguna     |                Task           |
+| ---| ------------ | ------------------------------|
+| 1  | Ormawa/Admin | Mengubah atau menghapus banner|
+|    |              | Mengunggah proposal sponsor   |
+|    |              | Menghapus proposal sponsor    |
+| 2  | Pengguna Umum| Melihat banner                |
+|    |              | Melihat proposal sponsor      |
+|    |              | Mengunduh proposal sponsor    |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Kebutuhan Sistem
 
-## Laravel Sponsors
+* Software yang dipakai untuk pengembangan
+  Figma, Github, XAMPP, VS Code, Sublime Text, Chrome, Trello, Diagrams.net
+* Tech Stack yang dipakai untuk pengembangan
+  Laravel, PHP, MySQL, Bootstrap
+* Hardware (salah satunya) yang dipakai untuk pengembangan
+  Processor : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+  Memory : 8,00 GB
+  VGA : Nvidia GTX 1050Ti GeForce
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Fitur yang dikembangkan
+|No|Fitur|Fungsi/Kegunaan|
+|1|Login|Untuk admin, agar dapat mengunggah proposal sponsor serta mengupdate informasi di banner|
+|2|Mengubah head banner|Untuk mengupdate informasi yang sedang berlangsung|
+|3|Upload proposal sponsor|Untuk menyebarkan informasi mengenai proposal sponsor|
+|4|Menampilkan proposal sponsor|Untuk memberitahu mahasiswa mengenai proposal sponsor|
+|5|Menampilkan head banner|Untuk menampilkan informasi yang sedang berlangsung|
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+## Metodologi
 
-## Contributing
+<img src="https://drive.google.com/file/d/1VDli1iuqugfEW6KSsZFFfuoZQSq9bB3P/view?usp=sharing">
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Use Case
 
-## Code of Conduct
+<img src="https://drive.google.com/file/d/1lExV4SdyQJmUyn6hoQ7f8OLaYvfcAOcw/view?usp=sharing">
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Class Diagram
 
-## Security Vulnerabilities
+<img src="https://drive.google.com/file/d/19k6fv3GNPOLCa08B1pj5fIGGLIt6GEsv/view?usp=sharing">
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Activity Diagram
 
-## License
+<img src="https://drive.google.com/file/d/1eghHjeuRECl1kcNXCeRnrBo8qC36gqqE/view?usp=sharing">
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Design Interface
 
-kelompok 6 mppl ddd
+
+
+
