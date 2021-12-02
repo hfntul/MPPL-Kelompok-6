@@ -96,8 +96,10 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ## Hasil Implementasi Perangkat Lunak
 
 ### Landing Page
+![WhatsApp Image 2021-12-02 at 08 02 29](https://user-images.githubusercontent.com/60084468/144338994-99d5057c-1453-48d6-b6d2-492d207d215d.jpeg)
 
 ### Login
+![WhatsApp Image 2021-12-02 at 08 03 22](https://user-images.githubusercontent.com/60084468/144339035-54b28ffd-0241-40ff-945c-1bfc6921e575.jpeg)
 
 ### Tambah Acara
 
