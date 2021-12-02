@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Admin;
 use App\Proposal;
+use App\Banners;
 
 class AdminsControllers extends Controller
 {
@@ -72,6 +73,36 @@ class AdminsControllers extends Controller
             return redirect('/admin/acara/create');
          } else {
              return redirect('/admin/acara');
+         }
+     }
+
+     public function createBanner(Request $request)
+     {
+        // $request->validate([
+        //     'adminId' => 'required',
+        //     'eventName' => 'required',
+        //     'eventTimeHeld' => 'required',
+        //     'file' => 'required|mimes:jpeg,png,jpg|max:5000',
+        // ]);
+        
+        // // $file = $request->customFile('file');
+        
+        // $fileName = time().'.'.$request->file('file')->extension();  
+   
+        // $request->file->move(public_path('uploads'), $fileName);
+
+        
+        $banner = Banners::create([
+            "admin_id" => Auth::user()->id,
+            "nama" => 'nama',
+            "dueDate" => '2000-11-27',
+            "link" => $request->link,
+         ]);
+
+         if(!$banner){
+            return redirect('/admin/banner/create');
+         } else {
+             return redirect('/admin/banner/edit');
          }
      }
 }

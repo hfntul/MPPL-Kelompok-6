@@ -52,6 +52,9 @@ Route::prefix('admin')->group(function(){
     });
 
     Route::prefix('banner')->group(function(){
+        Route::get('/create', function () {
+            return view('/admin/create-banner');
+        });
         Route::get('/edit', function () {
             return view('/admin/edit-banner');
         });
@@ -79,5 +82,6 @@ Route::get('/register', function (){
 Route::post('/adminRegist', "AdminsControllers@store");
 Route::post('/adminLogin', "AdminsControllers@login");
 Route::post('/createProposal', "AdminsControllers@createProposal");
+Route::post('/createBanner', "AdminsControllers@createBanner");
 Route::get('/logout','AdminsControllers@logout');
 
