@@ -109,6 +109,8 @@ Halaman ini adalah ketika pengguna ingin mengetahui acara dari ormawa tertentu
 ![image](https://user-images.githubusercontent.com/60084468/144387872-8da4ed61-78bb-4d25-b308-db6777fa330f.png)
 
 Kemudian akan tampil daftar dari acara tiap ormawa yang dipilih sebelumnya
+![image](https://user-images.githubusercontent.com/60084468/144390426-f277fb0f-fde4-402a-a207-00521a863b44.png)
+
 ![image](https://user-images.githubusercontent.com/60084468/144388144-8a96be47-836a-485e-94e6-018835b25b92.png)
 
 ### Detail Acara
