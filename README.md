@@ -104,6 +104,18 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 Halaman ini merupakan halaman depan ketika user mengetikkan alamar url http://koridor.herokuapp.com
 ![WhatsApp Image 2021-12-02 at 08 02 29](https://user-images.githubusercontent.com/60084468/144338994-99d5057c-1453-48d6-b6d2-492d207d215d.jpeg)
 
+### Acara
+Halaman ini adalah ketika pengguna ingin mengetahui acara dari ormawa tertentu
+![image](https://user-images.githubusercontent.com/60084468/144387872-8da4ed61-78bb-4d25-b308-db6777fa330f.png)
+
+Kemudian akan tampil daftar dari acara tiap ormawa yang dipilih sebelumnya
+![image](https://user-images.githubusercontent.com/60084468/144388144-8a96be47-836a-485e-94e6-018835b25b92.png)
+
+### Detail Acara
+Halaman ini adalah ketika pengguna mengklik Read More pada page acara. Untuk melihat dokumen LPJ dan Proposal, akan diarahkan ke link tempat menyimpan LPJ dan Proposal.
+![image](https://user-images.githubusercontent.com/60084468/144388516-9afdeef5-7a90-4991-a892-3cde60570280.png)
+
+
 ### Login
 Halaman ini merupakan halaman ketika ingin login admin
 ![WhatsApp Image 2021-12-02 at 08 03 22](https://user-images.githubusercontent.com/60084468/144339035-54b28ffd-0241-40ff-945c-1bfc6921e575.jpeg)
@@ -112,7 +124,7 @@ Halaman ini merupakan halaman ketika ingin login admin
 Halaman ini merupakan halaman ketika admin sudah login
 ![WhatsApp Image 2021-12-02 at 10 54 24](https://user-images.githubusercontent.com/60084468/144355857-5b64e8e3-935c-4c25-b9a2-349aca1548d1.jpeg)
 
-### Acara
+### Daftar Acara
 Halaman ini merupakan halaman ketika admin memasuki page acara
 ![image](https://user-images.githubusercontent.com/60084468/144384369-0792157d-f0da-4c66-b553-34045a6f8447.png)
 
