@@ -131,6 +131,10 @@ Delete acara dapat dilakukan pada page 'Acara' dengan mengklik tombol aksi delet
 Edit banner dapat dilakukan pada page Banner dengan langsung menuliskan link yang ingin ditampilkan, kemudian klik 'SIMPAN' untuk mengubah link, jika batal mengubah link banner, maka klik tombol 'BATAL'
 ![image](https://user-images.githubusercontent.com/60084468/144357536-6132d20c-2aa6-4d5d-a2ab-f2405f8e90bd.png)
 
+### About
+Halaman ini untuk mengetahui detail informasi mengenai KORIDOR
+![image](https://user-images.githubusercontent.com/60084468/144386048-4b08ecf9-407f-43d0-a8b4-e7a4c25aa4ea.png)
+
 
 ---
 
