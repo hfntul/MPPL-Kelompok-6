@@ -122,7 +122,7 @@ Halaman ini merupakan halaman ketika ingin login admin
 
 ### Beranda Admin
 Halaman ini merupakan halaman ketika admin sudah login
-![WhatsApp Image 2021-12-02 at 10 54 24](https://user-images.githubusercontent.com/60084468/144355857-5b64e8e3-935c-4c25-b9a2-349aca1548d1.jpeg)
+![image](https://user-images.githubusercontent.com/60084468/144390050-a55d528c-1aa7-4a75-8a29-d227e990f9a5.png)
 
 ### Daftar Acara
 Halaman ini merupakan halaman ketika admin memasuki page acara
