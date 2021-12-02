@@ -38,7 +38,7 @@ Koridor merupakan aplikasi berbasis web sebagai wadah untuk organisasi mahasiswa
 
 * Software yang digunakan untuk pengembangan
   
-  Figma, Github, XAMPP, VS Code, Sublime Text, Chrome, Trello, Diagrams.net
+  Figma, Github, XAMPP, VS Code, Postman, Chrome, Trello, Diagrams.net
   
 * Tech Stack yang digunakan untuk pengembangan
   
@@ -74,12 +74,16 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ---
 ## Use Case
 
+![Screenshot (1124)](https://user-images.githubusercontent.com/48743817/144383095-75e04774-a9c4-447a-a31b-36ec4e984b78.png)
 
-
+---
+---
 ## Class Diagram
 
 ![Screenshot (1120)](https://user-images.githubusercontent.com/48743817/144280563-ff1022c7-d066-4685-b370-ccc964e6597e.png)
 
+---
+---
 ## Activity Diagram
 
 ![Screenshot (1121)](https://user-images.githubusercontent.com/48743817/144280466-508c6f49-7a3f-471c-a958-35855d0cb24b.png)
