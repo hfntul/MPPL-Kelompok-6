@@ -94,7 +94,7 @@ class AdminsControllers extends Controller
         
         $banner = Banners::create([
             "admin_id" => Auth::user()->id,
-            "nama" => 'nama',
+            "nama" => Auth::user()->ormawa,
             "dueDate" => '2000-11-27',
             "link" => $request->link,
          ]);
