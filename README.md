@@ -96,12 +96,23 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ## Hasil Implementasi Perangkat Lunak
 
 ### Landing Page
+Halaman ini merupakan halaman depan ketika user mengetikkan alamar url http://koridor.herokuapp.com
 ![WhatsApp Image 2021-12-02 at 08 02 29](https://user-images.githubusercontent.com/60084468/144338994-99d5057c-1453-48d6-b6d2-492d207d215d.jpeg)
 
 ### Login
+Halaman ini merupakan halaman ketika ingin login admin
 ![WhatsApp Image 2021-12-02 at 08 03 22](https://user-images.githubusercontent.com/60084468/144339035-54b28ffd-0241-40ff-945c-1bfc6921e575.jpeg)
 
+### Beranda Admin
+Halaman ini merupakan halaman ketika admin sudah login
+![WhatsApp Image 2021-12-02 at 10 54 24](https://user-images.githubusercontent.com/60084468/144355857-5b64e8e3-935c-4c25-b9a2-349aca1548d1.jpeg)
+
 ### Tambah Acara
+Halaman ini merupakan halaman ketika admin memasuki page acara
+![WhatsApp Image 2021-12-02 at 11 09 01](https://user-images.githubusercontent.com/60084468/144356030-31cb3d38-bf52-4bcd-9079-3bcc2cdc79f3.jpeg)
+
+Halaman ini adalah ketika admin mengklik tombol tambah acara dan ingin menambahkan acara
+![WhatsApp Image 2021-12-02 at 11 11 16](https://user-images.githubusercontent.com/60084468/144356305-fdded31f-c927-4668-ab45-62feb9a72d4a.jpeg)
 
 ### Edit Acara
 
