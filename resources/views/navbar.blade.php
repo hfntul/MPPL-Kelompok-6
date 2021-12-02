@@ -37,6 +37,9 @@
             <li class="nav-item" style="margin-top:14px">
                 <a class="nav-link" style="{{ (request()->is('about')) ? 'font-weight:bold' : '' }}" href="{{url('/admin')}}">Admin</a>
             </li>
+            <li class="nav-item" style="margin-top:14px">
+                <a class="nav-link" style="{{ (request()->is('about')) ? 'font-weight:bold' : '' }}" href="{{url('/logout')}}">Logout</a>
+            </li>
             @else
             <li class="nav-item" style="margin-top:14px">
                 <a class="nav-link" style="{{ (request()->is('/')) ? 'font-weight:bold' : '' }}" href="{{url('/')}}">Beranda</a>
