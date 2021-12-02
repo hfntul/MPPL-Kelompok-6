@@ -126,7 +126,7 @@ Halaman ini merupakan halaman ketika admin sudah login
 
 ### Daftar Acara
 Halaman ini merupakan halaman ketika admin memasuki page acara
-![image](https://user-images.githubusercontent.com/60084468/144384369-0792157d-f0da-4c66-b553-34045a6f8447.png)
+![WhatsApp Image 2021-12-02 at 15 53 10](https://user-images.githubusercontent.com/60084468/144389722-3bbdc27d-3c75-431c-bb3c-411d4765584f.jpeg)
 
 Halaman ini adalah ketika admin mengklik tombol tambah acara dan ingin menambahkan acara
 ![image](https://user-images.githubusercontent.com/60084468/144384573-8b7bdfa4-f889-4681-86ec-189c9e23cd73.png)
@@ -136,12 +136,12 @@ Halaman ini merupakan halaman ketika admin sudah mengklik tombol aksi edit pada 
 ![image](https://user-images.githubusercontent.com/60084468/144357221-02d97b54-b712-4f2c-9c5f-a7f1765f8de6.png)
 
 ### Delete Acara
-Delete acara dapat dilakukan pada page 'Acara' dengan mengklik tombol aksi delete.
-![image](https://user-images.githubusercontent.com/60084468/144357508-67bd09c1-0648-4fb1-8a94-89e17015473b.png)
+Delete acara dapat dilakukan pada page 'Acara' dengan mengklik tombol aksi delete. Setelah proses delete berhasil, akan popup tanda bahwa data sudah berhasil dihapus.
+![WhatsApp Image 2021-12-02 at 15 54 58](https://user-images.githubusercontent.com/60084468/144389721-0ebad3da-d2d2-49f7-a336-88c2378b0478.jpeg)
 
 ### Edit Banner
 Edit banner dapat dilakukan pada page Banner dengan langsung menuliskan link yang ingin ditampilkan, kemudian klik 'SIMPAN' untuk mengubah link, jika batal mengubah link banner, maka klik tombol 'BATAL'
-![image](https://user-images.githubusercontent.com/60084468/144357536-6132d20c-2aa6-4d5d-a2ab-f2405f8e90bd.png)
+![WhatsApp Image 2021-12-02 at 15 52 45](https://user-images.githubusercontent.com/60084468/144389556-f12d59d4-4570-47f1-9db3-fa975da5fc9a.jpeg)
 
 ### About
 Halaman ini untuk mengetahui detail informasi mengenai KORIDOR
