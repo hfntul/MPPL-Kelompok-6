@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\Auth;
 use App\Proposal;
 use Illuminate\Http\Request;
 use App\Admin;
+use App\Banners;
 class proposalAPIController extends Controller
+
 {
     /**
      * Display a listing of the resource.
@@ -121,8 +123,10 @@ class proposalAPIController extends Controller
     {
         $adminId = Admin::where('ormawa', $ormawa)->first();
         $proposalnya = Proposal::where('admin_id', $adminId->id)->get();
+        $bannernya = Banners::where('admin_id', $adminId->id)->get();
 
-        return view('/acara', compact('proposalnya'));
+        return view('/acara', compact('proposalnya', 'bannernya'));
+        
     }
     
     public function toDetailAcara($id)

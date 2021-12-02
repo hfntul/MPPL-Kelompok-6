@@ -4,7 +4,7 @@
         @foreach($proposalnya as $key => $p)
         <div class="column">
             <div class="card">
-                <!-- <img src="./images/poster.png" style="max-width: 380px; max-height: 460px" alt="Card image cap"> -->
+                <img src="{{url('/images/poster.png')}}" style="max-width: 380px; max-height: 460px" alt="Card image cap">
                 <h3>{{$p->eventName}}</h3>
                 <!-- <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p> -->
                 <br>

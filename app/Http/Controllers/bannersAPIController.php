@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Banners;
 use Illuminate\Http\Request;
+use App\Admin;
 
 class bannersAPIController extends Controller
 {
