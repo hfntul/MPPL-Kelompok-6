@@ -74,7 +74,7 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ---
 ## Use Case
 
-![Screenshot (1124)](https://user-images.githubusercontent.com/48743817/144383095-75e04774-a9c4-447a-a31b-36ec4e984b78.png)
+![use fix](https://user-images.githubusercontent.com/48743817/144383841-8fff56be-87ba-4e10-849d-cb350686d6e4.png)
 
 ---
 ---
@@ -94,8 +94,9 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ---
 ## Trello
 
----
+![Screenshot (1133)](https://user-images.githubusercontent.com/48743817/144384099-6ae4a7da-d2c4-472b-86eb-542374c32f30.png)
 
+---
 ---
 ## Hasil Implementasi Perangkat Lunak
 
