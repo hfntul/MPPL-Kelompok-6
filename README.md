@@ -112,12 +112,12 @@ Halaman ini merupakan halaman ketika ingin login admin
 Halaman ini merupakan halaman ketika admin sudah login
 ![WhatsApp Image 2021-12-02 at 10 54 24](https://user-images.githubusercontent.com/60084468/144355857-5b64e8e3-935c-4c25-b9a2-349aca1548d1.jpeg)
 
-### Tambah Acara
+### Acara
 Halaman ini merupakan halaman ketika admin memasuki page acara
-![WhatsApp Image 2021-12-02 at 11 09 01](https://user-images.githubusercontent.com/60084468/144356030-31cb3d38-bf52-4bcd-9079-3bcc2cdc79f3.jpeg)
+![image](https://user-images.githubusercontent.com/60084468/144384369-0792157d-f0da-4c66-b553-34045a6f8447.png)
 
 Halaman ini adalah ketika admin mengklik tombol tambah acara dan ingin menambahkan acara
-![WhatsApp Image 2021-12-02 at 11 11 16](https://user-images.githubusercontent.com/60084468/144356305-fdded31f-c927-4668-ab45-62feb9a72d4a.jpeg)
+![image](https://user-images.githubusercontent.com/60084468/144384573-8b7bdfa4-f889-4681-86ec-189c9e23cd73.png)
 
 ### Edit Acara
 Halaman ini merupakan halaman ketika admin sudah mengklik tombol aksi edit pada halaman acara. Klik tombol 'SIMPAN' untuk mengubah detail acara, jika batal untuk mengedit maka klik tombol 'BATAL'
