@@ -17599,5 +17599,37 @@ pre[class*="language-"] {
   font-size: 20px;
 }
 
+.alert {
+  padding: 20px;
+  color: white;
+  width: 20%;
+  text-align: center;
+  margin:auto;
+  margin-top:10px;
+  transition: opacity 1s;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bg-sukses{
+  background-color:#48b054
+}
+
+.bg-eror{
+  background-color:#ff304c
+}
+.closebtn:hover {
+  color: black;
+}
+
 /*# sourceMappingURL=material-dashboard.css.map */
 

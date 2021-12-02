@@ -55,20 +55,20 @@
                       </td>
 
                       <td class="align-middle text-center text-sm">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-check"></i>
+                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal" >
+                          {{ substr($a->propos, 0,  20)}}...
                         </h6>
                       </td>
 
                       <td class="align-middle text-center">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-times"></i>
+                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
+                          {{ substr($a->lpj, 0,  20)}}...
                         </h6>
                       </td>
 
                       <td class="align-middle text-center">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-check"></i>
+                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
+                        {{ substr($a->poster, 0,  20)}}...
                         </h6>
                       </td>
 
@@ -79,44 +79,6 @@
                         </h6>
                       </td>
                     </tr>
-                    <!-- <tr>
-                      <td>
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
-                            IT Today 
-                        </h6>
-                      </td>
-
-                      <td>
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF; font-weight:normal">
-                            04 Maret 2022
-                        </h6>
-                      </td>
-
-                      <td class="align-middle text-center text-sm">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-times"></i>
-                        </h6>
-                      </td>
-
-                      <td class="align-middle text-center">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-check"></i>
-                        </h6>
-                      </td>
-
-                      <td class="align-middle text-center">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <i class="fa fa-check"></i>
-                        </h6>
-                      </td>
-
-                      <td class="align-middle text-center">
-                        <h6 class="mb-0 text-sm text-center" style="color:#2277BF">
-                            <a class="edit" href="{{url('/admin/acara/edit')}}"><i class="fas fa-edit"></i></a>
-                            <a class="delete" href="#"><i class="fas fa-trash-alt"></i></a>                            
-                        </h6>
-                      </td>
-                    </tr> -->
                     @endforeach
                   </tbody>
                 </table>

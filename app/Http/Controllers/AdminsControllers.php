@@ -66,14 +66,17 @@ class AdminsControllers extends Controller
             "eventName" => $request->judul,
             "eventTimeHeld" => $request->tanggalPel,
             "kabinet" => $request->kabinet,
-            "file" => '1',
+            "propos" => $request->propos,
+            "lpj" => $request->lpj,
+            "poster" => $request->poster,
          ]);
 
          if(!$proposal){
-            return redirect('/admin/acara/create');
+            return redirect('/admin/acara/create')->with('success', 'Acara berhasil dibuat');;
          } else {
              return redirect('/admin/acara');
          }
+         
      }
 
      public function createBanner(Request $request)

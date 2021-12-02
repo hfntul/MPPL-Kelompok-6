@@ -25,7 +25,7 @@
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn my-4 mb-2 simpan">Simpan</button>
-                    <button type="button" class="btn my-4 mb-2 batal">Batal</button>
+                    <a href="{{url('/admin')}}"><button type="button" class="btn my-4 mb-2 batal">Batal</button></a>
                   </div>
                 </form>
                 @endforeach

@@ -21,9 +21,11 @@ class CreateProposalTable extends Migration
             // $table->date('uploadTime');
             $table->string('eventName');
             $table->string('eventTimeHeld');
-            $table->string('file');
+            $table->string('propos');
+            $table->string('lpj');
+            $table->string('poster');
             $table->timestamps();
-
+            
 
             $table->foreign('admin_id')->references('id')->on('admins')
             ->onDelete('cascade')->onUpdate('cascade');

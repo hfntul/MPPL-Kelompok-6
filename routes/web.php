@@ -80,7 +80,7 @@ Route::get('/register', function (){
 });
 
 Route::post('/adminRegist', "AdminsControllers@store");
-Route::post('/adminLogin', "AdminsControllers@login");
+Route::post('/adminLogin', "AdminsControllers@login")->name('login');
 Route::post('/createProposal', "AdminsControllers@createProposal");
 Route::post('/createBanner', "AdminsControllers@createBanner");
 Route::get('/logout','AdminsControllers@logout');

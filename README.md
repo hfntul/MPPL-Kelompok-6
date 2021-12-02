@@ -96,18 +96,35 @@ Metode yang digunakan adalah metode Waterfall. Alasan kami memilih metode ini ad
 ## Hasil Implementasi Perangkat Lunak
 
 ### Landing Page
+Halaman ini merupakan halaman depan ketika user mengetikkan alamar url http://koridor.herokuapp.com
 ![WhatsApp Image 2021-12-02 at 08 02 29](https://user-images.githubusercontent.com/60084468/144338994-99d5057c-1453-48d6-b6d2-492d207d215d.jpeg)
 
 ### Login
+Halaman ini merupakan halaman ketika ingin login admin
 ![WhatsApp Image 2021-12-02 at 08 03 22](https://user-images.githubusercontent.com/60084468/144339035-54b28ffd-0241-40ff-945c-1bfc6921e575.jpeg)
 
+### Beranda Admin
+Halaman ini merupakan halaman ketika admin sudah login
+![WhatsApp Image 2021-12-02 at 10 54 24](https://user-images.githubusercontent.com/60084468/144355857-5b64e8e3-935c-4c25-b9a2-349aca1548d1.jpeg)
+
 ### Tambah Acara
+Halaman ini merupakan halaman ketika admin memasuki page acara
+![WhatsApp Image 2021-12-02 at 11 09 01](https://user-images.githubusercontent.com/60084468/144356030-31cb3d38-bf52-4bcd-9079-3bcc2cdc79f3.jpeg)
+
+Halaman ini adalah ketika admin mengklik tombol tambah acara dan ingin menambahkan acara
+![WhatsApp Image 2021-12-02 at 11 11 16](https://user-images.githubusercontent.com/60084468/144356305-fdded31f-c927-4668-ab45-62feb9a72d4a.jpeg)
 
 ### Edit Acara
+Halaman ini merupakan halaman ketika admin sudah mengklik tombol aksi edit pada halaman acara. Klik tombol 'SIMPAN' untuk mengubah detail acara, jika batal untuk mengedit maka klik tombol 'BATAL'
+![image](https://user-images.githubusercontent.com/60084468/144357221-02d97b54-b712-4f2c-9c5f-a7f1765f8de6.png)
 
 ### Delete Acara
+Delete acara dapat dilakukan pada page 'Acara' dengan mengklik tombol aksi delete.
+![image](https://user-images.githubusercontent.com/60084468/144357508-67bd09c1-0648-4fb1-8a94-89e17015473b.png)
 
 ### Edit Banner
+Edit banner dapat dilakukan pada page Banner dengan langsung menuliskan link yang ingin ditampilkan, kemudian klik 'SIMPAN' untuk mengubah link, jika batal mengubah link banner, maka klik tombol 'BATAL'
+![image](https://user-images.githubusercontent.com/60084468/144357536-6132d20c-2aa6-4d5d-a2ab-f2405f8e90bd.png)
 
 
 ---

@@ -29,12 +29,12 @@
                                         <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <label for="password">Password</label>
-                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
-                                    </div>
-                                    <div class="form-floating mb-5">
                                         <label for="ormawa">Ormawa</label>
                                         <input type="string" class="form-control" id="ormawa" name="ormawa" placeholder="Ormawa">
+                                    </div>
+                                    <div class="form-floating mb-5">
+                                        <label for="password">Password</label>
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                                     </div>
                                     <div class="d-grid">
                                         <button class="btn btn-lg btn-login btn-block text-uppercase fw-bold mb-2 buttonlogin" type="submit">Register</button>

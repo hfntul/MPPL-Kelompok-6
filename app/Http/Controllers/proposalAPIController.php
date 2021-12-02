@@ -97,7 +97,7 @@ class proposalAPIController extends Controller
 
         $proposal->update($input);
 
-        return redirect('/admin/acara/')->with('sukses', 'Acara Berhasil di Update');
+        return redirect('/admin/acara/')->with('success', 'Acara berhasil di-update');
     }
 
     /**
@@ -116,7 +116,7 @@ class proposalAPIController extends Controller
 
         $proposal->delete();
 
-        return redirect('/admin/acara/')->with('sukses', 'Acara Berhasil di Update');
+        return redirect('/admin/acara/')->with('success', 'Acara berhasil dihapus');
     }
 
     public function toAcara($ormawa)

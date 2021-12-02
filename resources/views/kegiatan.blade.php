@@ -4,40 +4,12 @@
         @foreach($proposalnya as $key => $p)
         <div class="column">
             <div class="card">
-                <img src="{{url('/images/poster.png')}}" style="max-width: 380px; max-height: 460px" alt="Card image cap">
+                <img src="{{$p->poster}}" style="max-width: 380px; max-height: 460px" alt="Card image cap">
                 <h3>{{$p->eventName}}</h3>
-                <!-- <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p> -->
                 <br>
                 <a href="/acara/toDetail/{{$p->id}}">Read More</a>
             </div>
         </div>
         @endforeach
-        <!-- <div class="column">
-            <div class="card">
-                <img src="./images/poster.png" style="max-width: 380px; max-height: 460px" alt="Card image cap">
-                <h3>Simposium Nasional</h3>
-                <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p>
-                <br>
-                <a href="#">Read More</a>
-            </div>
-        </div> -->
-        <!-- <div class="column">
-            <div class="card">
-                <img src="./images/poster.png" style="max-width: 380px; max-height: 460px" alt="Card image cap">
-                <h3>Simposium Nasional</h3>
-                <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p>
-                <br>
-                <a href="#">Read More</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="./images/poster.png" style="max-width: 380px; max-height: 460px" alt="Card image cap">
-                <h3>Simposium Nasional</h3>
-                <p>Event ini merupakan event yang diadakan oleh departemen Ilmu Komputer</p>
-                <br>
-                <a href="#">Read More</a>
-            </div>
-        </div> -->
     </div> 
 </div>

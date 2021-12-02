@@ -21,31 +21,31 @@
                 {{csrf_field()}}
                   <div class="input-group input-group-outline my-3" style="display:block">
                     <label><strong>Judul</strong></label>
-                    <input type="text" id="eventName" name="eventName" class="form-control" style="width:100%" value="{{$proposal->eventName}}">
+                    <input type="text" id="eventName" name="eventName" class="form-control" style="width:100%" value="{{$proposal->eventName}}" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
                     <label><strong>Tanggal Pelaksanaan</strong></label>
-                    <input type="text" id="eventTimeHeld" name="eventTimeHeld" class="form-control" style="width:100%" value="{{$proposal->eventTimeHeld}}">
+                    <input type="text" id="eventTimeHeld" name="eventTimeHeld" class="form-control" style="width:100%" value="{{$proposal->eventTimeHeld}}" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
                     <label><strong>Kabinet</strong></label>
-                    <input type="text" id="kabinet" name="kabinet" class="form-control" style="width:100%" value="{{$proposal->kabinet}}">
+                    <input type="text" id="kabinet" name="kabinet" class="form-control" style="width:100%" value="{{$proposal->kabinet}}" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
-                    <label for="customFile"><strong>Proposal</strong></label>
-                    <input type="file" class="form-control" id="customFile" style="width:100%" />
+                    <label><strong>Proposal</strong></label>
+                    <input type="text" id="propos" name="propos" class="form-control" style="width:100%" value="{{$proposal->propos}}" required>
                   </div>
                   <div class="input-group input-group-outline mb-3" style="display:block">
-                    <label for="customFile"><strong>LPJ</strong></label>
-                    <input type="file" class="form-control" id="customFile" style="width:100%"/>
+                    <label><strong>LPJ</strong></label>
+                    <input type="text" id="lpj" name="lpj" class="form-control" style="width:100%" value="{{$proposal->lpj}}" required>
                   </div>
-                  <div class="input-group input-group-outline mb-3" style="display:block;">
-                    <label for="customFile"><strong>Poster</strong></label>
-                    <input type="file" class="form-control tes" id="customFile" style="width:100%;"/>
+                  <div class="input-group input-group-outline mb-3" style="display:block">
+                    <label><strong>Poster</strong></label>
+                    <input type="text" id="poster" name="poster" class="form-control" style="width:100%" value="{{$proposal->poster}}" required>
                   </div>
                   <div class="text-center">
                     <button type="submit" class="btn my-4 mb-2 simpan">Simpan</button>
-                    <button type="button" class="btn my-4 mb-2 batal">Batal</button>
+                    <a href="{{url('/admin/acara')}}"><button type="button" class="btn my-4 mb-2 batal">Batal</button></a>
                   </div>
                 </form>
               </div>

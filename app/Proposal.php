@@ -23,7 +23,7 @@ class Proposal extends Model
     protected $table='proposal';
 
     protected $fillable=[
-        'admin_id','eventName','eventTimeHeld','file','id','kabinet',
+        'admin_id','eventName','eventTimeHeld','id','kabinet','propos','lpj','poster',
     ];
         
     public function admins(){
